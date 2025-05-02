@@ -11,9 +11,9 @@ Green = "\033[0;32m"
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 bot.remove_command('help')
 
-Bot_token = 'Bot Token'
-channelid = 123456 # The channel where the builder will work
-admin = 123456 # The admin ID (He can generate key for user)
+Bot_token = 'MTM2NzY3MzM2MzMxNjYwOTA4NA.GbcduF.hgxMVfeE5AHmZY96CWXDxSNHGO6I5eLoV1CqlM'
+channelid = 1367673887856263230 # The channel where the builder will work
+admin = 1365190026266279976 # The admin ID (He can generate key for user)
 import os
 os.makedirs('./Build', exist_ok=True)
 @bot.event
@@ -177,4 +177,4 @@ async def ban(interaction: discord.Interaction, member: discord.Member, reason: 
     await interaction.response.send_message(f"User {member.mention} has been banned.")
 
 
-bot.run(Bot_token)
+bot.run(MTM2NzY3MzM2MzMxNjYwOTA4NA.GbcduF.hgxMVfeE5AHmZY96CWXDxSNHGO6I5eLoV1CqlM)
